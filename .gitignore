@@ -1,0 +1,5 @@
+/wp
+production-config.php
+local-config.php
+/uploads
+.DS_Store
