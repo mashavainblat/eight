@@ -3,14 +3,15 @@
   RewriteEngine On
   RewriteBase /
 
-  # BEGIN WordPress
-  RewriteRule ^$ wp/index.php [L]
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
 
-  # Skip real files and directories
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-
-  # Otherwise send it to WordPress
-  RewriteRule .* wp/index.php [L]
-  # END WordPress
+# END WordPress
 </IfModule>
