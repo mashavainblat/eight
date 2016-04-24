@@ -9,7 +9,8 @@
 			<header class="archive-header">
 				<?php include ("navigation.php"); ?>
 
-				<h1 class="archive-title"><?php echo single_cat_title( '', false ) ; ?></h1>
+				<h1 class="archive-title" style="display:none"><?php echo single_cat_title( '', false ) ; ?></h1>
+
  				<?php
 					// Show an optional term description.
 					$term_description = term_description();
@@ -19,8 +20,8 @@
 				?>
 			</header><!-- .archive-header -->
 			<div class="row noMargin galleryPostContentContainer">
-				<div class="col-md-2 emptyColumn"></div>
-				<div class="col-md-8 galleryPostContainer">
+				<div class="col-md-1 emptyColumn"></div>
+				<div class="col-md-10 galleryPostContainer">
 
 				<?php
 						// we add this, to show all posts in our 
@@ -47,7 +48,7 @@
 								?>
 
 				</div><!-- #galleryPostContainer -->
-				<div class="col-md-2 emptyColumn"></div>
+				<div class="col-md-1 emptyColumn"></div>
 			</div> <!-- #row -->
 		</div><!-- #content -->
 	</section><!-- #primary -->

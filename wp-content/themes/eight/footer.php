@@ -1,4 +1,4 @@
-<br clear="all">
+
 <div class="footerContainer">
 	<ul>
 		<li><a href="#">about</a></li>

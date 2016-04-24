@@ -4,7 +4,7 @@
 <body id="home">
 	<div class='container-fluid noPadding flex-container'>
 	    <header class="flex-item">
-			<?php include ("navigation.php"); ?>
+			<?php include ("navigation_home.php"); ?>
 		</header>
 		
 		<br clear="all">

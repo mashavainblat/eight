@@ -12,7 +12,7 @@
         </div>
 
         <div class="col-md-2 logoContainer">
-            <a href="/index.php"><img src="wp-content/themes/eight/img/logo/eightLogo_purpleRGB.png"/></a>
+            <a href="/index.php"><img src="wp-content/themes/eight/img/logo/eightLogo_white.png"/></a>
         </div>
 
         <div class="col-md-2 cakeContainer">

@@ -21,7 +21,6 @@ body{
 	font-family: 'Spinnaker', sans-serif;
 	text-transform: uppercase;
 	width:100%;
-	background-color: black;
 	padding-top:20px;
 	height:600px;
 }
@@ -44,38 +43,48 @@ body{
 /*************************************************************/
 /************************ NAVIGATION *************************/
 /*************************************************************/
-header{
+#home header{
 	/*background-color: black;*/
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+50,ffffff+100 */
 	color:white;
+}
+
+#home .navigationContentContainer{
 	background: rgb(0,0,0); /* Old browsers */
 	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
 	 background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 50%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
 	 background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.4) 45%, rgba(0,0,0,0.4) 55%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#000',GradientType=0 ); /* IE6-9 */
-}
-
-.navigationContentContainer{
 	text-transform: uppercase;
 	z-index:0;
 }
 
+#index header, #category header{
+	background-color:white;
+}
+
+h4#navigationTitle>a{
+	color:rgb(124, 101, 168);	
+}
+
 h4#navigationTitle{
-	margin-top:85px;
+	margin-top:125px;
 	text-align: center;
 }
 
 .logoContainer img{
-	margin-left:19%;
+	width:220px;
 }
 
-h4#navigationTitle>a, h5#postTitle>a{
+#home h4#navigationTitle>a{
 	color: #fff;
 }
 
-h4#navigationTitle>a:hover, h5#postTitle>a:hover{
+h4#navigationTitle>a:hover{
 	text-decoration: none;
-	color:#b266b2;
+	/*color:rgb(124, 101, 168);*/
+	/*color:#7C65A8;*/
+	color:rgb(164, 146, 199);
 }
 
 
@@ -115,9 +124,8 @@ header h1{
 }
 
 #main-content{
-	background-color:#000;
 	text-align:center;
-	color:#fff;
+	color:rgb(124, 101, 168);
 	padding:0px 17%;
 }
 
@@ -149,6 +157,13 @@ header h1{
 
 .galleryPostContentContainer{
 	margin-top:30px;
+	background-color:white;
+	color:rgb(124, 101, 168);
+	padding-top:30px;
+}
+
+h5#postTitle>a{
+	color:rgb(124, 101, 168);
 }
 
 .galleryPost figure{
@@ -185,6 +200,54 @@ header h1{
 /************************** FOOTER ***************************/
 /*************************************************************/
 
+footer{
+	text-align:center;
+	list-style: none;
+}
+
+footer p{
+	margin: 0px;
+}
+
+ul{
+	text-align:center;
+	list-style: none;
+	margin-bottom:0px;
+	padding:0px;
+}
+
+li{
+	display:inline-block;
+}
+
+#index footer, #category footer{
+	bottom:0;
+	position:fixed;
+	width:100%;
+	background-color:white;
+	color:rgb(124, 101, 168);
+}
+
+#index li>a, #category li>a{
+	color:rgb(124, 101, 168);
+}
+
+/*HOME PAGE FOOTER*/
+/***************************************************/
+
+#home li>a{
+	color:#fff;
+}
+
+#home li>a:hover{
+	color:rgb(124, 101, 168);
+	text-decoration: none;
+}
+
+#home .footerContainer{
+	color:white;
+}
+
 #home footer{
 	color:#fff;
 	padding:10px;
@@ -206,35 +269,7 @@ header h1{
 	width:100%;
 }
 
-footer p{
-	margin: 0px;
-}
 
-li>a{
-	color:#fff;
-}
-
-li>a:hover{
-	color:#b266b2;
-	text-decoration: none;
-}
-
-.footerContainer{
-	text-align:center;
-	list-style: none;
-	color:white;
-}
-
-ul{
-	text-align:center;
-	list-style: none;
-	margin-bottom:0px;
-	padding:0px;
-}
-
-li{
-	display:inline-block;
-}
 
 
 /*************************************************************/

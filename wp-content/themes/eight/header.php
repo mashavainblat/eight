@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Eight Header</title>
+	<title>Eight Bakery</title>
 	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/vendor/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/vendor/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
