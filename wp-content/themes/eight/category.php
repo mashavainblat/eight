@@ -30,7 +30,7 @@
 						$alphabeticalPosts = get_posts( $args );
 						//loop
 						foreach( $alphabeticalPosts as $post ) :?>
-							<div class="col-md-3 col sm-4 col-xs-12 galleryPost">
+							<div class="col-md-3 col-sm-4 col-xs-12 galleryPost">
 							<?php setup_postdata($post);
 								if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it. ?>
 											<figure><a href="<?php echo get_permalink (get_the_ID())?>"><img src="<?php echo the_post_thumbnail_url(); ?>"></a></figure>
