@@ -22,7 +22,7 @@
             </div>
 
             <div class="col-md-2 col-sm-2 logoContainer">
-                <a href="/index.php"><img src="wp-content/themes/eight/img/logo/eightLogo_purpleRGB.png"/></a>
+                <a href="/index.php"><img src="/wp-content/themes/eight.v2/img/logo/eightLogo_purpleRGB.png"/></a>
             </div>
 
             <div class="col-md-2 col-sm-2 cakeContainer">
