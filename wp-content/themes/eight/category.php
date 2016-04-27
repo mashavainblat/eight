@@ -9,7 +9,7 @@
 			<header class="archive-header">
 				<?php include ("navigation.php"); ?>
 
-				<h1 class="archive-title" style="display:none"><?php echo single_cat_title( '', false ) ; ?></h1>
+				<h1 class="archive-title"><?php echo single_cat_title( '', false ) ; ?></h1>
 
  				<?php
 					// Show an optional term description.
