@@ -3,9 +3,9 @@
     <div class="navigationContentContainer container-fluid">
 <!-- Brand and toggle get grouped for better mobile display -->
         <div class="menuToggle navbar-header">
-            <a href="/index.php"><img id ="navLogo" src="wp-content/themes/eight/img/menu/eightLogo.svg"></a>
+            <a href="/index.php"><img id ="navLogo" src="wp-content/themes/eight.v2/img/menu/eightLogo.svg"></a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <img id="menuBars" src="wp-content/themes/eight/img/menu/menuBars.svg">
+                <img id="menuBars" src="wp-content/themes/eight.v2/img/menu/menuBars.svg">
             </button>
         </div>
 

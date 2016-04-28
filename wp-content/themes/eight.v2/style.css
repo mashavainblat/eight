@@ -127,7 +127,11 @@ h4#navigationTitle>a:hover{
 }
 
 .navbar-toggle:hover{
-	background-color:#f8f8f8 !important;
+	background-color:rgba(0, 0, 0, 0) !important;
+}
+
+.navbar-toggle:active{
+	background-color:rgba(0, 0, 0, 0) !important;
 }
 
 .navbar img#navLogo{
@@ -398,7 +402,7 @@ li{
 	}
 
 	#category h4#navigationTitle, #index h4#navigationTitle{
-		margin-top:0px;
+		margin-top:10px;
 		font-size:1.25em;
 	}
 
