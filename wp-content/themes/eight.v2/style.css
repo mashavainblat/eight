@@ -435,3 +435,9 @@ li{
 
 	
 }
+
+@media screen and (max-width:425px){
+	footer .footerContainer p{
+		margin:0px 20px;
+	}
+}
