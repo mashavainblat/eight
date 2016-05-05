@@ -6,6 +6,6 @@
 		<li><a href="#">contact</a></li>
 	</ul>
 
-	<p class="slogan">where you can have your cake and eat it too</p>
+	<p class="slogan">where you can have your cake<br> and eat it too</p>
 </div>
 <?php wp_footer(); ?>
